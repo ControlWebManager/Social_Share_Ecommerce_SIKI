@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="product" inherit_id="website_sale.product" name="Social share" customize_show="True" active="True">
+            <xpath expr="//*[contains(@class, 'js_add_cart_variants')]/../hr" position="after">
+                <h2 class="social-share-buttons mt16" data-bind="social-share-buttons"></h2>
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
